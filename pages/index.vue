@@ -14,34 +14,48 @@ header {
   align-items: center;
 }
 
-header h1 {
-  font-size: 2.5rem;
+.image {
+  width: 100%;
+  height: 30vh;
+  background-color: var(--dark);
 }
 
-header p {
-  font-size: 1.5rem;
+section.dark{
+  background-color: #ddd;
 }
 
 </style>
 
 <template>
   <div>
-  	<nav class="flex center">
-  		<div>
-  			<i class="fa fa-bars" aria-hidden="true"></i>
-  		</div>
-      <div>
-        <img class="logo" src="hg.png">        
-      </div>
-      <div></div>
-    </nav>
     <header class="container">
       <div class="container">
-        <h1 class="text dark boldest">TEXTO INTERÁTIVO SOBRE O BANNER</h1>
-        <p class="text pink">
+        <h1 class="main-text">TEXTO INTERÁTIVO SOBRE O BANNER</h1>
+        <p class="secondary-text">
           AQUI  USAR  UM BANNER COM IMAGEM DE FUNDO
         </p>
       </div>
     </header>
+    <section class="dark">
+      <div class="container">
+        <div class="image flex center">
+          <p class="secondary-text" style="text-align: center; width: 100%">IMAGEM</p>
+        </div>
+        <h2 class="main-text text-center">TEXTO</h2>
+      </div>
+    </section>
+    <section>
+      <div class="container text-center">
+        <h2 class="main-text">TITULO</h2>
+        <p class="secondary-text">
+          TEXTO LONGO
+        </p>
+        <p class="main-text" style="color: #ddd">NOSSOS CLIENTES</p>
+        <p class="main-text" style="color: #ddd">NOSSOS CLIENTES</p>
+        <p class="main-text" style="color: #ddd">NOSSOS CLIENTES</p>
+        <p class="main-text" style="color: #ddd">NOSSOS CLIENTES</p>
+        <button>CASES DE SUCESSO</button>
+      </div>
+    </section>
   </div>
 </template>
