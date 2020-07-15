@@ -22,13 +22,18 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"}
+    ],
+    script: [
+      { src: 'https://use.fontawesome.com/a4c20d6d25.js' },
     ]
   },
   /*
   ** Global CSS
   */
   css: [
+    'assets/style.css'
   ],
   /*
   ** Plugins to load before mounting the App
