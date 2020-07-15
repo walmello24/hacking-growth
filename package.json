@@ -1,22 +1,16 @@
 {
   "name": "hacking-growth",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/walmello24/hacking-growth.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/walmello24/hacking-growth/issues"
-  },
-  "homepage": "https://github.com/walmello24/hacking-growth#readme",
   "dependencies": {
-    "nuxt": "^2.13.3"
-  }
+    "nuxt": "^2.13.0"
+  },
+  "devDependencies": {}
 }
