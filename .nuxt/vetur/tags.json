@@ -1,9 +1,39 @@
 {
+  "About": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "LazyAbout": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "Aside": {
+    "description": "Auto imported from components/Aside.vue"
+  },
+  "LazyAside": {
+    "description": "Auto imported from components/Aside.vue"
+  },
+  "Hamburguer": {
+    "description": "Auto imported from components/Hamburguer.vue"
+  },
+  "LazyHamburguer": {
+    "description": "Auto imported from components/Hamburguer.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
+  "LazyHero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "LazyMenu": {
+    "description": "Auto imported from components/Menu.vue"
   },
   "Navbar": {
     "description": "Auto imported from components/Navbar.vue"
