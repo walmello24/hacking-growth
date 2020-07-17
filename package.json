@@ -8,11 +8,10 @@
     "start": "nuxt start",
     "export": "nuxt export",
     "serve": "nuxt serve",
-    "generate": "npm install && npm run build && npm run export"
+    "generate": "npm run build && npm run export"
   },
   "dependencies": {
-    "nuxt": "^2.13.0",
-    "sass-loader": "^9.0.2"
+    "nuxt": "^2.13.0"
   },
   "devDependencies": {}
 }
