@@ -1,21 +1,15 @@
 {
-  "About": {
-    "description": "Auto imported from components/About.vue"
+  "Clientes": {
+    "description": "Auto imported from components/Clientes.vue"
   },
-  "LazyAbout": {
-    "description": "Auto imported from components/About.vue"
+  "LazyClientes": {
+    "description": "Auto imported from components/Clientes.vue"
   },
-  "Aside": {
-    "description": "Auto imported from components/Aside.vue"
+  "Counters": {
+    "description": "Auto imported from components/Counters.vue"
   },
-  "LazyAside": {
-    "description": "Auto imported from components/Aside.vue"
-  },
-  "Hamburguer": {
-    "description": "Auto imported from components/Hamburguer.vue"
-  },
-  "LazyHamburguer": {
-    "description": "Auto imported from components/Hamburguer.vue"
+  "LazyCounters": {
+    "description": "Auto imported from components/Counters.vue"
   },
   "Hero": {
     "description": "Auto imported from components/Hero.vue"
@@ -23,22 +17,22 @@
   "LazyHero": {
     "description": "Auto imported from components/Hero.vue"
   },
-  "Logo": {
-    "description": "Auto imported from components/Logo.vue"
+  "Products": {
+    "description": "Auto imported from components/Products.vue"
   },
-  "LazyLogo": {
-    "description": "Auto imported from components/Logo.vue"
+  "LazyProducts": {
+    "description": "Auto imported from components/Products.vue"
   },
-  "Menu": {
-    "description": "Auto imported from components/Menu.vue"
+  "Row": {
+    "description": "Auto imported from components/Row.vue"
   },
-  "LazyMenu": {
-    "description": "Auto imported from components/Menu.vue"
+  "LazyRow": {
+    "description": "Auto imported from components/Row.vue"
   },
-  "Navbar": {
-    "description": "Auto imported from components/Navbar.vue"
+  "Tripwire": {
+    "description": "Auto imported from components/Tripwire.vue"
   },
-  "LazyNavbar": {
-    "description": "Auto imported from components/Navbar.vue"
+  "LazyTripwire": {
+    "description": "Auto imported from components/Tripwire.vue"
   }
 }

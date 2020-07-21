@@ -11,6 +11,8 @@
     "generate": "npm run build && npm run export"
   },
   "dependencies": {
+    "@nuxt/content": "^1.4.1",
+    "@nuxtjs/axios": "^5.12.0",
     "nuxt": "^2.13.0"
   },
   "devDependencies": {}
