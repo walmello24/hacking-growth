@@ -25,6 +25,13 @@ p {
 	color: var(--dark);
 	max-width: 25rem;
 }
+
+@media (min-width: 1000px){
+	section {
+		background-size: 100%;
+	}
+}
+
 </style>
 
 <template>
