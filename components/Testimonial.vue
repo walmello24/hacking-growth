@@ -11,17 +11,8 @@ h3, h4{
 }
 
 .row {
-	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: center;
-}
-
-.item {
-	max-width: 15rem;
-}
-
-.item {
-
 }
 
 

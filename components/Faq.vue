@@ -71,18 +71,43 @@
 	}
 </script>
 
+<style scoped>
+
+dl {
+	margin: 2rem 0;
+	color: white;
+}
+
+dt {
+	background-color: var(--pink);
+	font-size: 1.5rem;
+	border-radius: 15px;
+}
+
+dd {
+	margin: 0;
+	background-color: var(--dark);
+	padding: 0.5rem;
+	margin-bottom: 2rem; 
+}
+</style>
+
 <template>
 	<section id="faq">
 		<div>
 			<dl>
 				<Toggle v-for="item in faq">
 					<template v-slot:title>
-						{{ item[0] }} ▼
+						<dt>
+							{{ item[0] }} ▼
+						</dt>
 					</template>
 					<template v-slot:content>
-						<div v-for="sub in item[1]">
-							<p v-html="sub"></p>
-						</div>
+						<dd>
+							<div v-for="sub in item[1]">
+								<p v-html="sub"></p>
+							</div>
+						</dd>
 					</template>
 				</Toggle>
 			</dl>

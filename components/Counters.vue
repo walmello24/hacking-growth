@@ -47,20 +47,20 @@ section > div {
 </script>
 
 <template>
-	<section id="contadores">
-		<div>
+	<section id="contadores" >
+		<div class="fade-in">
 			<Counter total=217 />
 			<h3>PROJETOS REALIZADOS</h3>
 		</div>
-		<div>
+		<div class="fade-in">
 			<Counter total=97 />
 			<h3>% DE CLIENTES SATISFEITOS</h3>
 		</div>
-		<div>
+		<div class="fade-in">
 			<Counter total=12 />
 			<h3>PROJETOS EM ANDAMENTO</h3>
 		</div>
-		<div>
+		<div class="fade-in">
 			<Counter total=25698 />
 			<h3>SEGUIDORES</h3>
 		</div>

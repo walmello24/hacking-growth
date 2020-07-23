@@ -1,4 +1,10 @@
 {
+  "Clientes": {
+    "description": "Auto imported from components/Clientes.vue"
+  },
+  "LazyClientes": {
+    "description": "Auto imported from components/Clientes.vue"
+  },
   "Counter": {
     "description": "Auto imported from components/Counter.vue"
   },
