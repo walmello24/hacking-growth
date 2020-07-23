@@ -5,9 +5,6 @@ header {
 	background: url('../static/BACKGROUND WEBP.webp');
 	background-size: 850px;
 	background-position: 60%;
-    -o-background-size: 850px;
-    -moz-background-size: 850px;
-    -webkit-background-size: 850px;
 }
 
 h2 {
@@ -36,16 +33,16 @@ strong {
 		margin: 3rem auto;
 	}
 
-	.row {
-		display: flex;
-	}
-
 	header {
 		background-size: 150%;
 		background-position: 30%;
 		text-align: left;
 	}
 
+
+	.row {
+		justify-content: space-between;
+	}
 
 	span {
 		text-align: left;
@@ -57,10 +54,11 @@ strong {
 
 	header {
 		background-position: 50%;
+		padding-top: 10rem;
 	}
 
 	a {
-		margin-left: 10%;
+		max-width: 20rem;
 	}
 }
 
@@ -68,13 +66,19 @@ strong {
 
 <template>
 	<header id="promessa">
-		<h1>
-			Otimize seu marketing digital 
-			<span>e aumente a taxa de conversão do seu negócio</span>
-		</h1>
-		<div class="row">
-			<h2>Conheça nossas soluções <strong>de marketing</strong> <br> baseadas em <strong>inteligência, otimização e dados.</strong></h2>
-			<a>Fale agora mesmo com um especialista</a>
+		<div class="fade-left">
+			<h1 class="">
+				Otimize seu marketing digital 
+				<span>e aumente a taxa de conversão do seu negócio</span>
+			</h1>
+			<div class="row">
+				<div>
+					<h2>Conheça nossas soluções <strong>de marketing</strong> <br> baseadas em <strong>inteligência, otimização e dados.</strong></h2>
+				</div>
+				<div>
+					<a>Fale agora mesmo com um especialista</a>
+				</div>
+			</div>
 		</div>
 	</header>
 </template>

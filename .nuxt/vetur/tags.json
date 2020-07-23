@@ -5,6 +5,12 @@
   "LazyClientes": {
     "description": "Auto imported from components/Clientes.vue"
   },
+  "Counter": {
+    "description": "Auto imported from components/Counter.vue"
+  },
+  "LazyCounter": {
+    "description": "Auto imported from components/Counter.vue"
+  },
   "Counters": {
     "description": "Auto imported from components/Counters.vue"
   },

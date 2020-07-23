@@ -24,9 +24,14 @@ h3, h4{
 
 }
 
+
 @media (min-width: 700px){
 	section {
 		text-align: left;		
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	a {

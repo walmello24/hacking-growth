@@ -1,4 +1,5 @@
 export { default as Clientes } from '../../components/Clientes.vue'
+export { default as Counter } from '../../components/Counter.vue'
 export { default as Counters } from '../../components/Counters.vue'
 export { default as Faq } from '../../components/Faq.vue'
 export { default as Get } from '../../components/Get.vue'
@@ -11,6 +12,7 @@ export { default as Toggle } from '../../components/Toggle.vue'
 export { default as Tripwire } from '../../components/Tripwire.vue'
 
 export const LazyClientes = import('../../components/Clientes.vue' /* webpackChunkName: "components/Clientes'}" */).then(c => c.default || c)
+export const LazyCounter = import('../../components/Counter.vue' /* webpackChunkName: "components/Counter'}" */).then(c => c.default || c)
 export const LazyCounters = import('../../components/Counters.vue' /* webpackChunkName: "components/Counters'}" */).then(c => c.default || c)
 export const LazyFaq = import('../../components/Faq.vue' /* webpackChunkName: "components/Faq'}" */).then(c => c.default || c)
 export const LazyGet = import('../../components/Get.vue' /* webpackChunkName: "components/Get'}" */).then(c => c.default || c)

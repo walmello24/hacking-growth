@@ -29,6 +29,12 @@ a {
   text-align: center;
 }
 
+a:hover {
+  background-color: var(--pink);
+  color: white;
+  cursor: pointer;
+}
+
 h3 {
   font-size: 1.5rem;
 }
@@ -56,6 +62,53 @@ h3 {
 
 }
 
+
+@keyframes fadeIn {
+  0% { 
+    opacity: 0; 
+    transform: scale(0.5);
+  }
+  100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeLeft {
+  0% { 
+    opacity: 0; 
+    transform: scale(0.5);
+    transform: translateX(-10rem);
+  }
+  100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeRight {
+  0% { 
+    opacity: 0; 
+    transform: scale(0.5);
+    transform: translateX(10rem);
+  }
+  100% { 
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fade-left {
+  animation: fadeLeft 0.5s ease-in-out;
+}
+
+.fade-right {
+  animation: fadeRight 0.5s ease-in-out;
+}
 
 </style>
 

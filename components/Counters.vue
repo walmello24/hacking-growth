@@ -36,23 +36,33 @@ section > div {
 }
 </style>
 
+<script>
+	export default {
+		data(){
+			return {
+
+			}
+		}
+	}
+</script>
+
 <template>
 	<section id="contadores">
 		<div>
-			<p>234</p>
-			<h3>Clientes Satisfeitos</h3>
+			<Counter total=217 />
+			<h3>PROJETOS REALIZADOS</h3>
 		</div>
 		<div>
-			<p>234</p>
-			<h3>Clientes Satisfeitos</h3>
+			<Counter total=97 />
+			<h3>% DE CLIENTES SATISFEITOS</h3>
 		</div>
 		<div>
-			<p>234</p>
-			<h3>Clientes Satisfeitos</h3>
+			<Counter total=12 />
+			<h3>PROJETOS EM ANDAMENTO</h3>
 		</div>
 		<div>
-			<p>234</p>
-			<h3>Clientes Satisfeitos</h3>
+			<Counter total=25698 />
+			<h3>SEGUIDORES</h3>
 		</div>
 	</section>
 </template>
