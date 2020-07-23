@@ -53,6 +53,12 @@
   "LazyTestimonial": {
     "description": "Auto imported from components/Testimonial.vue"
   },
+  "Toggle": {
+    "description": "Auto imported from components/Toggle.vue"
+  },
+  "LazyToggle": {
+    "description": "Auto imported from components/Toggle.vue"
+  },
   "Tripwire": {
     "description": "Auto imported from components/Tripwire.vue"
   },

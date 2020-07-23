@@ -1,9 +1,8 @@
 <style scoped>
 
 img {
-  width: 15rem;
-  height: 10rem;
-  border: 5px solid black;
+  width: 10rem;
+  height: 5rem;
   margin-top: 20px;
 }
 
@@ -20,10 +19,12 @@ img {
 		<div>
 			<h2>Conheça algumas das empresas que já alcançaram <strong>resultados incríveis</strong> conosco!</h2>
 
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
+			<img src="GAMA.svg">
+			<img src="DISTRITO.svg">
+			<img src="ABSTATUPS.svg">
+			<img src="VALEDOSOL.svg">
+			<img src="RESULTADOS DIGITAIS.svg">
+			<img src="SHAWEE.svg">
 		</div>
 	</section>
 </template>

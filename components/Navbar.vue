@@ -1,47 +1,69 @@
 <style scoped>
-	nav {
-		height: 4rem;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		position: fixed;
-		width: 100%;
-		background-color: var(--darkt);
-	}
+nav {
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	background-color: var(--darkt);
+}
 
-	ul {
-		list-style: none;
-		display: none;
-	}
+ul {
+	list-style: none;
+}
 
-	li {
-		display: inline-block;
-	}
+.no-display {
+	display: none;
+}
 
-	img {
-		height: 100%;
-	}
+li {
+	display: inline-block;
+}
 
-	.menu {
-		height: 3rem;
-		width: 3rem;
-	}
+img {
+	height: 100%;
+}
 
-	div {
-		height: 100%;
-		width: 3rem;
-	}
+.menu {
+	height: 3rem;
+	width: 3rem;
+}
+
+div {
+	height: 100%;
+	width: 3rem;
+}
+
+.menu-open {
+	height: 100vh;
+	width: 100vw;
+	max-width: 20rem;
+	background-color: #000d;
+	color: white;
+	position: fixed;
+	right: 0;
+}
+
 </style>
 
 <template>
 	<nav>
 		<div></div>
 		<img src="hg.png">
-		<ul>
-			<li>Home</li>
-			<li>Home</li>
-			<li>Home</li>
-		</ul>
-		<img class="menu" src="MENU.svg">
+		<Toggle>
+			<template v-slot:title>
+				<img class="menu" src="MENU.svg">
+			</template>
+			<template v-slot:content>
+				<div class="menu-open">
+					<ul>
+						<li>Home</li>
+						<li>Home</li>
+						<li>Home</li>
+					</ul>
+				</div>
+			</template>
+		</Toggle>
 	</nav>
 </template>

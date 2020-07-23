@@ -14,6 +14,7 @@ h2 {
 h2 strong {
 	font-size: 2.3rem;
 	display: block;
+	color: var(--dark);
 }
 
 a {
