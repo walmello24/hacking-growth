@@ -2,7 +2,7 @@
 	nav {
 		height: 4rem;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 		position: fixed;
 		width: 100%;
@@ -25,10 +25,16 @@
 		height: 3rem;
 		width: 3rem;
 	}
+
+	div {
+		height: 100%;
+		width: 3rem;
+	}
 </style>
 
 <template>
 	<nav>
+		<div></div>
 		<img src="hg.png">
 		<ul>
 			<li>Home</li>

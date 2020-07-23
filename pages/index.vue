@@ -26,6 +26,7 @@ a {
   border-radius: 0.5rem;
   max-width: 12rem;
   margin: auto;
+  text-align: center;
 }
 
 h3 {
