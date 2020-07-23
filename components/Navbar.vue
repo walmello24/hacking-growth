@@ -4,6 +4,8 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		position: fixed;
+		width: 100%;
 	}
 
 	ul {
@@ -18,6 +20,11 @@
 	img {
 		height: 100%;
 	}
+
+	.menu {
+		height: 3rem;
+		width: 3rem;
+	}
 </style>
 
 <template>
@@ -28,6 +35,6 @@
 			<li>Home</li>
 			<li>Home</li>
 		</ul>
-		<img src="hamburguer.webp">
+		<img class="menu" src="MENU.svg">
 	</nav>
 </template>

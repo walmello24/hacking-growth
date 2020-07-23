@@ -5,7 +5,7 @@
 		}),
 		methods: {
 			toggle(){
-				open === !open
+				alert('ok')
 			}
 		}
 	}
@@ -15,7 +15,7 @@
 	<section id="faq">
 		<div>
 			<dl>
-				<dt onclick="toggle = !toggle">O que é Taxa de Conversão?</dt>
+				<dt @click="toggle">O que é Taxa de Conversão?</dt>
 				<dd>
 					<p v-if="open">
 						Diferente da Taxa de Cliques (CTR) de uma página, a taxa de conversão expressa, em porcentagem, os visitantes que executaram a ação desejada na página. Por exemplo: Uma página tem o objetivo de vender um produto e recebe mensalmente 100 visitas. Destas 100 visitas, 20 compraram o produto, logo, a Taxa de Conversão desta página é de 20%.

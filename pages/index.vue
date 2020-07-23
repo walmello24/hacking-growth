@@ -1,11 +1,8 @@
 <style>
 
+
 html {
   text-align: center;
-}
-
-header, section, footer, nav {
-  border: 1px solid black;  
 }
 
 header, section, footer {
@@ -21,18 +18,38 @@ h2 {
 }
 
 a {
-  background-color: black;
-  color: white;
+  background-color: var(--cyan);
+  color: var(--dark);
   font-weight: bold;
   padding: 1rem;
   display: block;
   border-radius: 0.5rem;
+  max-width: 12rem;
+  margin: auto;
 }
 
 h3 {
   font-size: 1.5rem;
 }
 
+
+@media (min-width: 700px){
+
+  .row {
+    display: flex;
+  }
+}
+
+@media (min-width: 1000px){
+  html {
+    text-align: left;
+  }
+
+  .big-row {
+    display: flex;
+  }
+
+}
 
 
 </style>
