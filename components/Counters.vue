@@ -1,22 +1,58 @@
 <style scoped>
-	p {
-		font-size: 3rem;
-		margin: 0;
-		margin-bottom: 0.5rem;
-	}
+p {
+	font-size: 3rem;
+	margin: 0;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
 
-	h3 {
-		margin-top: 0;
+h3 {
+	margin-top: 0;
+	font-size: 1rem;
+	color: var(--pink);
+	font-weight: normal;
+	text-transform: uppercase; 
+	max-width: 11rem;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	background-color: var(--dark);
+	color: white;
+	padding-top: 3rem;
+	padding-bottom: 3rem; 
+}
+
+section > div {
+	margin: auto;
+}
+
+@media (min-width: 700px){
+	section {
+		text-align: center;
 	}
+}
 </style>
 
 <template>
 	<section id="contadores">
-		<p>234</p>
-		<h3>Clientes Satisfeitos</h3>
-		<p>234</p>
-		<h3>Clientes Satisfeitos</h3>
-		<p>234</p>
-		<h3>Clientes Satisfeitos</h3>
+		<div>
+			<p>234</p>
+			<h3>Clientes Satisfeitos</h3>
+		</div>
+		<div>
+			<p>234</p>
+			<h3>Clientes Satisfeitos</h3>
+		</div>
+		<div>
+			<p>234</p>
+			<h3>Clientes Satisfeitos</h3>
+		</div>
+		<div>
+			<p>234</p>
+			<h3>Clientes Satisfeitos</h3>
+		</div>
 	</section>
 </template>
