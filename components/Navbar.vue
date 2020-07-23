@@ -6,6 +6,7 @@
 		align-items: center;
 		position: fixed;
 		width: 100%;
+		background-color: var(--darkt);
 	}
 
 	ul {

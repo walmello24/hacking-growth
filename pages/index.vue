@@ -51,7 +51,7 @@ h3 {
   }
 
   header, section {
-    padding: 3rem 20%;
+    padding: 3rem 15%;
   }
 
 }

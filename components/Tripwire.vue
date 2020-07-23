@@ -2,10 +2,9 @@
 section {
 	background: url('../static/04Resultado.webp');
 	background-size: 1000px;
-	background-position: 60%;
+	background-position: 0;
 	background-color: white;
 	color: var(--dark);
-	text-align: left;
 }
 
 h2 {
@@ -18,12 +17,22 @@ h2 strong {
 }
 
 a {
-	margin: 0;
+	margin: auto;
 }
 
 p {
 	color: var(--dark);
 	max-width: 25rem;
+}
+
+@media (min-width: 700px){
+	section {
+		text-align: left;		
+	}
+
+	a {
+		margin: 0;
+	}
 }
 
 @media (min-width: 1000px){
