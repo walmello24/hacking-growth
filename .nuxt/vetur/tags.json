@@ -1,10 +1,4 @@
 {
-  "Clientes": {
-    "description": "Auto imported from components/Clientes.vue"
-  },
-  "LazyClientes": {
-    "description": "Auto imported from components/Clientes.vue"
-  },
   "Counter": {
     "description": "Auto imported from components/Counter.vue"
   },
@@ -40,6 +34,12 @@
   },
   "LazyNavbar": {
     "description": "Auto imported from components/Navbar.vue"
+  },
+  "Parceiros": {
+    "description": "Auto imported from components/Parceiros.vue"
+  },
+  "LazyParceiros": {
+    "description": "Auto imported from components/Parceiros.vue"
   },
   "Products": {
     "description": "Auto imported from components/Products.vue"

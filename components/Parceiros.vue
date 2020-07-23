@@ -1,7 +1,7 @@
 <style scoped>
 
 img {
-  width: 16rem;
+  width: 15rem;
   height: 5rem;
   margin-top: 20px;
 }

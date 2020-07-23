@@ -3,15 +3,15 @@
 		props: ['total'],
 		data(){
 			return {
-				real: 0,
+				real: 1,
 			}
 		},
 		mounted(){
 			setInterval(() => {
 				if(this.real < this.total){
-					this.real++
+					this.real = parseInt(this.real + (this.total / 50))
 				}
-			},30)
+			},10)
 		}
 	}
 </script>

@@ -119,7 +119,7 @@ h3 {
     <main>
       <Tripwire/>
       <Products/>
-      <Clientes/>
+      <Parceiros/>
       <Counters/>
       <Testimonial/>
       <Faq/>
