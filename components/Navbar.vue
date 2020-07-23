@@ -28,10 +28,12 @@ img {
 .menu {
 	height: 3rem;
 	width: 3rem;
+	position: fixed;
+	right: 1rem;
 }
 
 div {
-	height: 100%;
+	height: 3rem;
 	width: 3rem;
 }
 
@@ -45,6 +47,11 @@ div {
 	right: 0;
 }
 
+.menu img {
+	height: 100%;
+	width: 100%;
+}
+
 </style>
 
 <template>
@@ -53,7 +60,9 @@ div {
 		<img src="hg.png">
 		<Toggle>
 			<template v-slot:title>
-				<img class="menu" src="MENU.svg">
+				<div class="menu">
+					<img src="MENU.svg">
+				</div>
 			</template>
 			<template v-slot:content>
 				<div class="menu-open">

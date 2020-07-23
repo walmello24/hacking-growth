@@ -18,8 +18,8 @@ h2 {
 }
 
 a {
-  background-color: var(--cyan);
-  color: var(--dark);
+  background-color: var(--pink);
+  color: white;
   font-weight: bold;
   padding: 1rem;
   display: block;
@@ -27,11 +27,12 @@ a {
   max-width: 12rem;
   margin: auto;
   text-align: center;
+  transition: 0.3s;
 }
 
 a:hover {
-  background-color: var(--pink);
-  color: white;
+  background-color: var(--cyan);
+  color: var(--dark);
   cursor: pointer;
 }
 

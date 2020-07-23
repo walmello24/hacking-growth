@@ -1,6 +1,6 @@
 <style scoped>
 section {
-	background: url('../static/04Resultado.webp');
+	background: url('../static/04Resultado.jpg');
 	background-size: 1000px;
 	background-position: 0;
 	background-color: white;

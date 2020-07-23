@@ -2,7 +2,7 @@
 header {
 	padding-top: 3rem;
 	color: white;
-	background: url('../static/BACKGROUND WEBP.webp');
+	background: url('../static/BACKGROUND-WEBP.jpg');
 	background-size: 850px;
 	background-position: 60%;
 }

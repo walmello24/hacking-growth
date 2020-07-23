@@ -8,7 +8,7 @@
 	--light: #eee;
 	--dark: #092342;
 	--darkt: #092342dd;
-	--gradient: linear-gradient(to right,var(--pink), var(--cyan), var(--violet), var(--blue));
+	--gradient: linear-gradient(to right, var(--pink), var(--cyan), var(--violet), var(--blue));
 }
 
 body {

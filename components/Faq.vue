@@ -73,44 +73,53 @@
 
 <style scoped>
 
-dl {
-	margin: 2rem 0;
+section {
+	background-color: var(--dark);
 	color: white;
 }
 
+dl {
+}
+
 dt {
-	background-color: var(--pink);
-	font-size: 1.5rem;
-	border-radius: 15px;
+	font-size: 1.2rem;
+	background: linear-gradient(to right, var(--pink), var(--cyan), var(--violet), var(--blue));
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+	margin: 1rem;
+}
+
+dt div {
+	color: white;
+	padding: 1rem;
+	background-color: var(--dark);
 }
 
 dd {
 	margin: 0;
-	background-color: var(--dark);
-	padding: 0.5rem;
-	margin-bottom: 2rem; 
 }
 </style>
 
 <template>
 	<section id="faq">
-		<div>
-			<dl>
-				<Toggle v-for="item in faq">
-					<template v-slot:title>
-						<dt>
+		<dl>
+			<Toggle v-for="item in faq">
+				<template v-slot:title>
+					<dt>
+						<div>
 							{{ item[0] }} ▼
-						</dt>
-					</template>
-					<template v-slot:content>
-						<dd>
-							<div v-for="sub in item[1]">
-								<p v-html="sub"></p>
-							</div>
-						</dd>
-					</template>
-				</Toggle>
-			</dl>
-		</div>
+						</div>
+					</dt>
+				</template>
+				<template v-slot:content>
+					<dd>
+						<div v-for="sub in item[1]">
+							<p v-html="sub"></p>
+						</div>
+					</dd>
+				</template>
+			</Toggle>
+		</dl>
 	</section>
 </template>
