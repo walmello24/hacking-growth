@@ -11,11 +11,29 @@
   "LazyCounters": {
     "description": "Auto imported from components/Counters.vue"
   },
+  "Faq": {
+    "description": "Auto imported from components/Faq.vue"
+  },
+  "LazyFaq": {
+    "description": "Auto imported from components/Faq.vue"
+  },
+  "Get": {
+    "description": "Auto imported from components/Get.vue"
+  },
+  "LazyGet": {
+    "description": "Auto imported from components/Get.vue"
+  },
   "Hero": {
     "description": "Auto imported from components/Hero.vue"
   },
   "LazyHero": {
     "description": "Auto imported from components/Hero.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "LazyNavbar": {
+    "description": "Auto imported from components/Navbar.vue"
   },
   "Products": {
     "description": "Auto imported from components/Products.vue"
@@ -28,6 +46,12 @@
   },
   "LazyRow": {
     "description": "Auto imported from components/Row.vue"
+  },
+  "Testimonial": {
+    "description": "Auto imported from components/Testimonial.vue"
+  },
+  "LazyTestimonial": {
+    "description": "Auto imported from components/Testimonial.vue"
   },
   "Tripwire": {
     "description": "Auto imported from components/Tripwire.vue"

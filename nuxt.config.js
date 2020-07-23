@@ -54,7 +54,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxt/content',
     '@nuxtjs/axios'
   ],
   /*

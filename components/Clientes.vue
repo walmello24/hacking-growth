@@ -1,11 +1,12 @@
-<style>
+<style scoped>
+
 img {
-	border: 1px solid black;
-	width: 40%;
-	height: 10rem;
-	margin: 2rem auto;
-	display: block;
+  width: 100%;
+  height: 10rem;
+  border: 5px solid black;
+  margin-top: 20px;
 }
+
 </style>
 
 <template>

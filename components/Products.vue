@@ -1,26 +1,12 @@
 <style scoped>
-	div {
-		max-width: 30rem;
-		margin: 3rem auto;
-		border: 1px solid black;
-		box-sizing: border-box;
-		padding: 1rem;
-	}
 
-	img {
-		border: 1px solid black;
-		width: 70%;
-		height: 10rem;
-		margin: 2rem auto;
-	}
+img {
+	width: 100%;
+	height: 10rem;
+	border: 5px solid black;
+	margin-top: 20px;
+}
 
-	a {
-		font-size: 2rem;
-		color: black;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
 </style>
 
 <template>
