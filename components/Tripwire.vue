@@ -2,12 +2,10 @@
 section {
 	background: url('../static/04Resultado.webp');
 	background-size: 1000px;
-	-o-background-size: 1000px;
-    -moz-background-size: 1000px;
-    -webkit-background-size: 1000px;
-	background-position: 80%;
+	background-position: 60%;
 	background-color: white;
 	color: var(--dark);
+	text-align: left;
 }
 
 h2 {
@@ -25,6 +23,7 @@ a {
 
 p {
 	color: var(--dark);
+	max-width: 25rem;
 }
 </style>
 
