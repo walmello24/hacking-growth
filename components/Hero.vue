@@ -5,6 +5,9 @@ header {
 	background: url('../static/BACKGROUND WEBP.webp');
 	background-size: 850px;
 	background-position: 60%;
+    -o-background-size: 850px;
+    -moz-background-size: 850px;
+    -webkit-background-size: 850px;
 }
 
 h2 {
@@ -54,7 +57,6 @@ strong {
 
 	header {
 		background-position: 50%;
-		padding: 3rem 20%;
 	}
 
 	a {

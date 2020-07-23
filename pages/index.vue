@@ -50,6 +50,10 @@ h3 {
     display: flex;
   }
 
+  header, section {
+    padding: 3rem 20%;
+  }
+
 }
 
 
