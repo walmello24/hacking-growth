@@ -125,13 +125,9 @@ h3 {
       <Counters/>
       <Testimonial/>
       <Faq/>
-      <section id="opt-in">
-        (Formulário e ferramenta de envio de mensagens direta para o WhatsApp da empresa)
-      </section>
+      <Contact/>
     </main>
-    <footer>
-      NFooter (aqui é necessário ter o site map e outras sub-páginas, como: quem somos, trabalhe conosco, etc. Porém estas outras páginas serão desenvolvidas com o tempo)
-    </footer>
+    <Footer/>
   </div>
 </template>
 

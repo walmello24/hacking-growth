@@ -1,7 +1,9 @@
 export { default as Clientes } from '../../components/Clientes.vue'
+export { default as Contact } from '../../components/Contact.vue'
 export { default as Counter } from '../../components/Counter.vue'
 export { default as Counters } from '../../components/Counters.vue'
 export { default as Faq } from '../../components/Faq.vue'
+export { default as Footer } from '../../components/Footer.vue'
 export { default as Get } from '../../components/Get.vue'
 export { default as Hero } from '../../components/Hero.vue'
 export { default as Navbar } from '../../components/Navbar.vue'
@@ -13,9 +15,11 @@ export { default as Toggle } from '../../components/Toggle.vue'
 export { default as Tripwire } from '../../components/Tripwire.vue'
 
 export const LazyClientes = import('../../components/Clientes.vue' /* webpackChunkName: "components/Clientes'}" */).then(c => c.default || c)
+export const LazyContact = import('../../components/Contact.vue' /* webpackChunkName: "components/Contact'}" */).then(c => c.default || c)
 export const LazyCounter = import('../../components/Counter.vue' /* webpackChunkName: "components/Counter'}" */).then(c => c.default || c)
 export const LazyCounters = import('../../components/Counters.vue' /* webpackChunkName: "components/Counters'}" */).then(c => c.default || c)
 export const LazyFaq = import('../../components/Faq.vue' /* webpackChunkName: "components/Faq'}" */).then(c => c.default || c)
+export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/Footer'}" */).then(c => c.default || c)
 export const LazyGet = import('../../components/Get.vue' /* webpackChunkName: "components/Get'}" */).then(c => c.default || c)
 export const LazyHero = import('../../components/Hero.vue' /* webpackChunkName: "components/Hero'}" */).then(c => c.default || c)
 export const LazyNavbar = import('../../components/Navbar.vue' /* webpackChunkName: "components/Navbar'}" */).then(c => c.default || c)

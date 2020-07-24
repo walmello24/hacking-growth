@@ -98,6 +98,9 @@ dt div {
 
 dd {
 	margin: 0;
+	font-size: 1.2rem;
+	background-color: #0005;
+	padding: 2rem;
 }
 </style>
 
@@ -113,7 +116,7 @@ dd {
 					</dt>
 				</template>
 				<template v-slot:content>
-					<dd>
+					<dd class="fade-in">
 						<div v-for="sub in item[1]">
 							<p v-html="sub"></p>
 						</div>

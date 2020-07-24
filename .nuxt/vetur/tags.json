@@ -5,6 +5,12 @@
   "LazyClientes": {
     "description": "Auto imported from components/Clientes.vue"
   },
+  "Contact": {
+    "description": "Auto imported from components/Contact.vue"
+  },
+  "LazyContact": {
+    "description": "Auto imported from components/Contact.vue"
+  },
   "Counter": {
     "description": "Auto imported from components/Counter.vue"
   },
@@ -22,6 +28,12 @@
   },
   "LazyFaq": {
     "description": "Auto imported from components/Faq.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
   },
   "Get": {
     "description": "Auto imported from components/Get.vue"
