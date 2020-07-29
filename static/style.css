@@ -15,10 +15,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-/**/
-
-
-
 html {
   text-align: center;
 }
@@ -78,7 +74,7 @@ h3 {
   header, section {
     padding: 3rem 15%;
   }
-
+  
 }
 
 

@@ -78,51 +78,74 @@ section {
 	color: white;
 }
 
+.faq-item {
+	background: linear-gradient(to right, var(--pink), var(--cyan), var(--violet), var(--blue));
+	text-align: center;
+	margin: 1rem;
+	padding:0.1rem;
+}
+
 dl {
+	padding: 0;
 }
 
 dt {
-	font-size: 1.2rem;
-	background: linear-gradient(to right, var(--pink), var(--cyan), var(--violet), var(--blue));
 	font-weight: bold;
-	text-align: center;
-	padding: 2px;
-	margin: 1rem;
-}
-
-dt div {
-	color: white;
-	padding: 1rem;
 	background-color: var(--dark);
+	font-size: 1.5rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 dd {
+	background-color: var(--dark);
+	margin: 0;
+}
+
+p {
 	margin: 0;
 	font-size: 1.2rem;
-	background-color: #0005;
-	padding: 2rem;
+	padding: 1rem;
 }
+
+dt > div {
+	width: 2rem;
+	height: 2rem;
+	margin-left: 1rem;
+}
+
 </style>
 
 <template>
 	<section id="faq">
 		<dl>
-			<Toggle v-for="item in faq">
-				<template v-slot:title>
-					<dt>
-						<div>
-							{{ item[0] }} ▼
-						</div>
-					</dt>
-				</template>
-				<template v-slot:content>
-					<dd class="fade-in">
-						<div v-for="sub in item[1]">
-							<p v-html="sub"></p>
-						</div>
-					</dd>
-				</template>
-			</Toggle>
+			<div class="faq-item" v-for="item in faq">
+				<Toggle>
+					<template #on>
+						<dt>{{ item[0] }} 
+							<div>
+								<img src="FAQ/+.svg">
+							</div>
+						</dt>
+					</template>
+					<template #off>
+						<dt>{{ item[0] }} 
+							<div>
+								<img src="FAQ/-.svg">
+							</div>
+						</dt>
+					</template>
+					<template #content>						
+						<dd>
+							<div v-for="sub in item[1]">
+								<p v-html="sub"></p>
+							</div>
+						</dd>
+					</template>
+				</Toggle>	
+			</div>
 		</dl>
 	</section>
 </template>

@@ -13,8 +13,11 @@
 
 <template>
 	<div>
-		<div @click="toggle()">
-			<slot name="title"></slot>
+		<div v-if="!open" @click="toggle()">
+			<slot name="on"></slot>
+		</div>
+		<div v-if="open" @click="toggle()">
+			<slot name="off"></slot>
 		</div>
 		<div v-if="open">
 			<slot name="content"></slot>

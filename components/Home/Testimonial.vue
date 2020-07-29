@@ -31,6 +31,8 @@ h3, h4{
 
 	.row > div {
 		margin-left: 2rem;
+		width: 25%;
+		text-align: center;
 	}
 }
 
