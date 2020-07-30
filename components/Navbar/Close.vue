@@ -1,10 +1,13 @@
 <style scoped>
-	div {
-		font-size: 3rem;
-		color: var(--pink);
-		height: 100%;
-		width: 4rem;
-	}
+img {
+	position: relative;
+	height: 100%;
+	width: 4rem;
+}
+
+div {
+	height: 2rem;
+}
 </style>
 
 <template>

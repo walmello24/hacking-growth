@@ -1,9 +1,10 @@
 <style scoped>
 img {
-	width: 10rem;
-	height: 10rem;
+	width: 8rem;
+	height: 8rem;
 	border-radius: 50%;
 	background-color: grey;
+	border: 2px solid var(--dark);
 }
 
 h3, h4{
@@ -11,10 +12,13 @@ h3, h4{
 }
 
 .row {
-	align-items: flex-start;
+	align-items: stretch;
 	justify-content: center;
 }
 
+.item {
+	border: 2px solid var(--dark);
+}
 
 @media (min-width: 700px){
 	section {
@@ -35,7 +39,6 @@ h3, h4{
 		text-align: center;
 	}
 }
-
 </style>
 
 <script>

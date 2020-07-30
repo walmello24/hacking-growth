@@ -116,6 +116,11 @@ dt > div {
 	margin-left: 1rem;
 }
 
+img {
+	width: 2rem;
+	height: 2rem;
+}
+
 </style>
 
 <template>

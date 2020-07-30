@@ -1,7 +1,7 @@
 <style scoped>
 
 img {
-  width: 15rem;
+  width: 17rem;
   height: 5rem;
   margin-top: 20px;
 }
@@ -21,7 +21,7 @@ section {
 <template>
 	<section id="autoridade">
 		<div>
-			<h2>Veja alguns de nossos parceiros</h2>
+			<h2>Conheça algumas das empresas que já alcançaram resultados incríveis conosco</h2>
 
 			<img src="GAMA.svg">
 			<img src="DISTRITO.svg">

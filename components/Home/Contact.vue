@@ -6,7 +6,7 @@ h2, h3, p {
 form {
 	display: flex;
 	flex-direction: column;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	max-width: 30rem;
 	margin: auto;
 	text-align: left;
@@ -14,13 +14,14 @@ form {
 
 input, textarea {
 	width: 100%;
-	background-color: transparent;
 	border: none;
-	border-bottom: 3px solid pink;
+	background-color: white;
+	margin-bottom: 2px;
+	border: 10px solid white;
 }
 
-input::placeholder, textarea::placeholder {
-    color: var(--dark);
+.colorbox {
+	background: linear-gradient(to right, var(--pink), var(--cyan), var(--violet), var(--blue));
 }
 
 button {
@@ -28,11 +29,13 @@ button {
   color: white;
   font-weight: bold;
   padding: 1rem;
-  display: block;
   border-radius: 0.5rem;
   text-align: center;
   transition: 0.3s;
   border: none;
+  margin: 1rem;
+  width: 30%;
+  margin-left: auto;
 }
 
 button:hover {
@@ -41,19 +44,38 @@ button:hover {
   cursor: pointer;
 }
 
+label {
+	color: var(--dark);
+	font-weight: bold;
+	border: 10px solid white;
+}
+
 </style>
 
 <template>
 	<section id="opt-in">
-		<h2>COMECE HOJE A TRAÇAR O SUCESSO DE SEU NEGÓCIO</h2>
-		<h3>AGUARDAMOS SEU CONTATO</h3>
-		<p>Entre em contato conosco. Um de nossos consultores entrará em contato com você!</p>
+		<h2>Comece agora mesmo a traçar o sucesso do seu negócio</h2>
 		<form>
-			<input placeholder="NOME">
-			<input placeholder="EMAIL">
-			<input placeholder="TELEFONE">
-			<input placeholder="NOME DA EMPRESA">
-			<textarea placeholder="MENSAGEM"></textarea>
+			<label>NOME</label>
+			<div class="colorbox">
+				<input>
+			</div>
+			<label>EMAIL</label>
+			<div class="colorbox">
+				<input>
+			</div>
+			<label>NOME DA EMPRESA</label>
+			<div class="colorbox">
+				<input>
+			</div>
+			<label>QUANTO INVESTE EM MARKETING ATUALMENTE</label>
+			<div class="colorbox">
+				<input>
+			</div>	
+			<label>MENSAGEM</label>
+			<div class="colorbox">
+				<textarea style="margin-bottom: -2px"></textarea>
+			</div>
 			<button type="submit">ENVIAR</button>
 		</form>
 	</section>

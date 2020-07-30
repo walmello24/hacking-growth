@@ -6,7 +6,7 @@ img {
 }
 
 div {
-	height: 4rem;
+	height: 1.5rem;
 }
 </style>
 
